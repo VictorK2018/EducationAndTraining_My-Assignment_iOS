@@ -1,0 +1,37 @@
+
+1 Cash Register view
+Picker View displays the list that was given in the model, 
+gets updated when a user buys certain number of product 
+(quantity);
+The display view updated when user selects a row; 
+The user enters quantity, clicks ''buy'' button and ''Total'' label; 
+displays result = ''price'' multiplied by ''quantity'';
+When "мanager" button is clicked, the next view Manager will appear
+
+2 Manager view
+The ''history'' button will take the user to History view 
+The ''Restock'' button will take the user to Restock view 
+
+3 History view
+Will show user the history of all the transaction that happened
+in this session ( if the application closes, history need not to be 
+remembered );
+When user touches any of the cells, then History detail view will load 
+with details for each transaction
+
+4 History detail view
+Will show:
+-Item name
+-The quantity of the item purchased
+-Total amount
+-The date it was purchased
+
+5 Restock view
+Will show in TableView everything Store has in stock;
+''Re stock'' field displays the amount for restock, entered or not;
+When user selects a cell and press ''OK'' button, the quantity of 
+the item will increase by that amount;
+TableView will get updated instantly;
+''Cancel'' button will make the keyboard disappear;
+When user goes back to Cash Register, the Picker View should be 
+updated
